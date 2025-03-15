@@ -1,0 +1,39 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  .hero-section {
+    background: url('https://th.bing.com/th/id/OIP.jBfa1fd7ht0AArSPsq8D0gHaE7?rs=1&pid=ImgDetMain') no-repeat center center/cover;
+    height: 100vh;
+  }
+  
+  .hero-section h1,
+  .hero-section p {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  #gallery img {
+    transition: transform 0.3s ease;
+  }
+  
+  #gallery img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  
+  form input, form textarea {
+    border-radius: 10px;
+  }
+  .social-icons a {
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #0d6efd; /* Bootstrap primary color */
+  }
+  
+  footer {
+    font-size: 0.9rem;
+  }
